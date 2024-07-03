@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@800;900&display=swap');
+
+
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.titulo{
+    color: white;
+    font-size: 38px;
+    font-family: 'Phudu', sans-serif;
+    
+}*/
+
+.subtitulo{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    
+}
+.subtitulo2{
+    color:rgb(0, 0, 0);
+    font-size: 28px;
+    margin: 8px 0;
+    
+}
+
+
+.tarjet, .tarjetas-ataques {
+    display: flex;
+    gap: 10px;
+}
+
+.titulo-elementos img{
+    width: 300px;
+    margin: 0px 0px -27px 0px;
+}
+
+.titulo-elementos2 img{
+    width: 300px;
+    margin: 0px 0px -27px 0px;
+}
+
+.tarjeta-Animal{
+    width: 295px;
+    height: 278px;
+    background: rgb(105 10 129 / 63%);
+    color:white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    
+    
+}
+
+.tarjeta-Animal img{
+    width: 140px;
+}
+
+input{
+    display: none;
+}
+
+input:hover + label {
+    background-color: rgb(105, 6, 163);
+}
+
+input:checked + label {
+    background-color: rgb(105, 6, 163);
+}
+
+
+.tarjeta-selec{
+        width: 183px;
+        height: 45px;
+        background: darkorange;
+        border-width: 5px;
+        padding: 0px;
+        box-sizing: border-box;
+        margin: 10px 0px 0px 0px;
+        border-radius: 20px;
+        border: 2px solid white;
+        color: black;
+        font-family: 'Phudu', sans-serif;
+        font-size: 17px;
+        
+     
+    }
+
+    .tarjeta-selec:hover{
+        background-color: rgb(223, 17, 17);
+    }
+    
+
+
+#seleccionar-ataque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    background-color: rgba(79, 7, 97, 0.63);
+    padding: 14px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: white;
+    width: 125px;
+    color: white;
+    font-family: 'Phudu', sans-serif;
+    font-size: 20px;
+    border: 3px solid white;
+}
+
+.boton-de-ataque:hover{
+    background-color: rgb(105, 6, 163);
+}
+
+
+#mensajes{
+    width: 300px;
+    height: 603px;
+    background: rgb(31, 102, 209);
+    border: rgb(255, 255, 255);
+    padding: 22px;
+    margin-top: 23px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid white;
+    color: #dbff33;
+    font-size: 22px;
+}
+
+#reglas{
+    width: 151px;
+    height: 145px;
+    background: rgb(249 40 40 / 95%);
+    border: rgb(255, 255, 255);
+    padding: 22px;
+    margin-top: 23px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid white;
+    color: #000000;
+    font-size: 24px;
+    margin: 10px 0px -17px 0px;
+    flex-wrap: wrap; 
+    align-content: center; 
+    justify-content: flex-start;
+}
+
+#reglasnombre{
+    color: #000000;
+    font-size: 20px;
+    margin: 20px 0px -17px 0px;
+}
+
+#boton-reiniciar{
+    border-color: transparent;
+    background: rgb(31, 102, 209);
+    padding: 11px;
+    box-sizing: border-box;
+    border-radius: 23px;
+    border-color: white;
+    width: 194px;
+    color: #ecececc4;
+    border: 3px solid white;
+    font-size: 18px;
+    font-family: 'Phudu', sans-serif;
+}
+#boton-reiniciar:hover{
+    background-color: rgb(236, 126, 23);
+}
+
+.ataques{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    
+}
+
+#vidas-jugador, #vidas-enemigo{
+    font-size: 60px;
+    margin-bottom: 0;
+    margin: -30px 0px -16px 0px;
+    color: rgb(0, 0, 0);
+}
+#vida,#vida2 {
+    
+    color: rgb(5, 5, 5);
+    margin: -10px 0px 25px 0px;
+}
+
+#mascota-jugador, #mascota-enemigo{
+    color: rgb(5, 5, 5);
+    font-size: 22px;
+}
+
+
+.ataques-jugador,.ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: -6px 0px 0px 0px;
+
+}
+
+#resultado{
+    color: #dbff33;
+    font-size: 35px;
+}
+
+body{
+    margin: 0; 
+    padding: 0;
+    background-image: url("./assets/city3.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Phudu', sans-serif;
+    background-color: #010f36;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.titulo{
+    color: white;
+    font-size: 26px;
+}
+
+#ver-mapa{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 8px;
+    border: 5px solid rgb(255 255 255);
+    border-radius: 20px; */
+}
+    
+
+
+#mapa{
+    margin: 8px;
+    border: 5px solid rgb(255 255 255);
+    border-radius: 20px;
+}
+
+
+
+#ver-mapa button{
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background: rgb(236, 126, 23);
+    border: 2px solid rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-family: 'Phudu', sans-serif;
+    margin: 10px  0;
+    font-size: 20px;
+    margin: 5px 2px 2px 2px;
+    
+    /* padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px; */
+}
+#ver-mapa button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+@media (max-width: 560px){
+    .tarjet, .tarjetas-ataques{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 300px){
+   #ver-mapa, .subtitulo2 div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+    }
+
+

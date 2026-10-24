@@ -1,2 +1,2 @@
 # elementsbattle
-second page
+link Game: https://jvelasco14.github.io/elementsbattle/
